@@ -3,11 +3,13 @@ $font-color: lch(53 105 40);
 
 :root {
   --main-bg-color: pink;
+  --primary-background-color: #fafafc;
+  --main-text-color: #444444;
 }
 
 html {
   font-size: $font-size;
-  color: $font-color;
+  color: var(--main-text-color);
 }
 .someClass {
   font-size: 14px;
@@ -17,3 +19,4 @@ html {
 .app {
   color: red;
 }
+
