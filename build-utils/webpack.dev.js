@@ -7,7 +7,7 @@ module.exports = {
   plugins: [
     new Dotenv({
       path: path.resolve(__dirname, '..', './.env.development'),
-    })
+    }),
     // new DefinePlugin({
     //   'process.env': {
     //     'NODE_ENV': JSON.stringify('development'),
@@ -15,4 +15,4 @@ module.exports = {
     // }),
   ],
   devtool: 'eval-source-map',
-}
+};
